@@ -1,8 +1,13 @@
 package GstActions;
+/**
+ * Created by IntelliJ IDEA.
+ * User: Swapnil Gapchup
+ * Date: 3/8/18
+ */
 
 import com.pere.fileUtil.ReadProperties;
 import com.pere.seleniumActions.EnterTextField;
-import com.pere.seleniumActions.InitiateChrome;
+import com.pere.seleniumActions.InitiateDriver;
 import com.pere.seleniumActions.WebDriverWaitCustom;
 import com.perennial.selenium.ScreenshotHelper;
 import org.openqa.selenium.WebDriver;
@@ -50,21 +55,19 @@ public  class LoginToApplication {
 
         System.out.println();
         //maximise window
-//        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+     //driver.manage().window().maximize();
+        //driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
         //To take screenshot
         //ScreenshotHelper.captureScreenshot(driver, pro.getProperty("imageSavePath"));
         //wait until dom gives email_id
         WebDriverWaitCustom.waitTill(driver,userIdElementpath);
         //set text to the email id field
-        EnterTextField.enterTextInField(driver,userIdElementText,userIdElementText);
+        EnterTextField.enterTextInField(driver,userIdElementpath,userIdElementText);
         //set password in the password field
-        EnterTextField.enterTextInField(driver,userIdElementText,passwordElementText);
+        EnterTextField.enterTextInField(driver,passwordElementPath,passwordElementText);
         //Click on login button
         EnterTextField.clickButton(driver,submitButtonpath);
     }
-
-
 
 }

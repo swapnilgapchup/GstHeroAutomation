@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="77054e03-e932-441f-9ecd-6dd4052ac357" name="Default" comment="" />
+    <list default="true" id="77054e03-e932-441f-9ecd-6dd4052ac357" name="Default" comment="Up to the mapping of GSTR1 step 1">
+      <change afterPath="$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateFireFox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GstHeroAutomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gstdata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gstdata.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gsttestdata.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GstHeroAutomation/GstActions/GstFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GstHeroAutomation/GstActions/LoginToApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GstHeroAutomation/GstScript.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GstHeroAutomation/com/pere/browser/BrowserActions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GstHeroAutomation/com/pere/fileUtil/ReadProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GstHeroAutomation/com/pere/seleniumActions/EnterTextField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GstHeroAutomation/com/pere/seleniumActions/InitiateChrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GstHeroAutomation/com/pere/seleniumActions/WebDriverWaitCustom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GstActions/GstFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GstActions/GstFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GstActions/LoginToApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GstActions/LoginToApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GstScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GstScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pere/browser/BrowserActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pere/browser/BrowserActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pere/seleniumActions/EnterTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pere/seleniumActions/EnterTextField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateChrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateChrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pere/seleniumActions/WebDriverWaitCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pere/seleniumActions/WebDriverWaitCustom.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,12 +39,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GstScript.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GstScript.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GstScript.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state>
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -27,20 +54,65 @@
       <file leaf-file-name="WebDriverWaitCustom.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/WebDriverWaitCustom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            <state relative-caret-position="90">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GstFunctions.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/GstActions/GstFunctions.java">
+      <file leaf-file-name="InitiateDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="39" column="57" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+            <state relative-caret-position="195">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GstFunctions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GstActions/GstFunctions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-808">
+              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitiateChrome.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateChrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitiateFireFox.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateFireFox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gstdata.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gstdata.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -48,11 +120,8 @@
       <file leaf-file-name="LoginToApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GstActions/LoginToApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" column="86" lean-forward="true" selection-start-line="62" selection-start-column="86" selection-end-line="62" selection-end-column="86" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -60,50 +129,11 @@
       <file leaf-file-name="EnterTextField.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/EnterTextField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="-43">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BrowserActions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pere/browser/BrowserActions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/pere/fileUtil/ReadProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gsttestdata.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gsttestdata.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GstHeroAutomation.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GstHeroAutomation.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="18" selection-start-line="12" selection-start-column="10" selection-end-line="13" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -120,6 +150,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>WebDriver</find>
+      <find>package GstActions\;\nimport com\.pere\.seleniumActions\.EnterTextField\;\nimport com\.pere\.seleniumActions\.InitiateChrome\;\nimport com\.pere\.seleniumActions\.WebDriverWaitCustom\;\nimport com\.pere\.fileUtil\.ReadProperties\;\nimport com\.perennial\.selenium\.ScreenshotHelper\;\nimport net\.bytebuddy\.asm\.Advice\;\nimport org\.openqa\.selenium\.By\;\nimport org\.openqa\.selenium\.JavascriptExecutor\;\nimport org\.openqa\.selenium\.WebDriver\;\nimport org\.openqa\.selenium\.WebElement\;\nimport org\.openqa\.selenium\.interactions\.Actions\;\nimport org\.openqa\.selenium\.support\.ui\.Select\;\n\nimport java\.util\.Properties\;\nimport java\.util\.concurrent\.TimeUnit\;\n\npublic class GstFunctions \{\n\n    public static void login\(WebDriver driver\, String userName\, String password\, String baseUrl\, String userIdElement\, String userPasswordElement\, String submitButtonPath\)\{\n        Properties pro\;\n        pro \= ReadProperties\.returnProperties\(\)\;\n        \/\/InitiateChrome ic \= new InitiateChrome\(\)\;\n\n        \/\/To get desired URL loaded\n        driver\.get\(baseUrl\)\;\n\n        \/\/maximise window\n        driver\.manage\(\)\.window\(\)\.maximize\(\)\;\n        driver\.manage\(\)\.timeouts\(\)\.implicitlyWait\(30\, TimeUnit\.SECONDS\)\;\n\n        \/\/To take screenshot\n        ScreenshotHelper\.captureScreenshot\(driver\, pro\.getProperty\(\&quot;imageSavePath\&quot;\)\)\;\n        \/\/wait until dom gives email_id\n        WebDriverWaitCustom\.waitTill\(driver\, userIdElement\)\;\n        \/\/set text to the email id field\n        EnterTextField\.enterTextInField\(driver\, userIdElement\, userName\)\;\n        \/\/set password in the password field\n        EnterTextField\.enterTextInField\(driver\,userPasswordElement\,password\)\;\n        \/\/Click on login button\n        EnterTextField\.clickButton\(driver\,submitButtonPath\)\;\n    \}\n    public static void gstR1\(WebDriver driver\)\{\n        \/\/ Select date controller and click on it\n        WebDriverWaitCustom\.waitTill\(driver\,\&quot;\/\/\*\[\@id\=\\\&quot;clientDashReturnPeriod\\\&quot;\]\&quot;\)\;\n        EnterTextField\.clickButton\(driver\,\&quot;\/\/\*\[\@id\=\\\&quot;clientDashReturnPeriod\\\&quot;\]\&quot;\)\;\n        \/\/ Select first month from array and select it\n        EnterTextField\.clickButton\(driver\,\&quot;\/\/td\/span\[\@class\=\'month\'\]\[1\]\&quot;\)\;\n        \/\/Click on the map file button\/tr\[1\]\/td\[6\]\/a\n        \/\/WebElement element \= driver\.findElement\(By\.cssSelector\(\&quot;\#example1 \.text\-center \.gstr1MappingUpld\&quot;\)\)\;\n        WebElement element \= driver\.findElement\(By\.xpath\(\&quot;\/\/tr\[1\]\/td\[6\]\/a\&quot;\)\)\;\n        element\.click\(\)\;\n        WebDriverWaitCustom\.waitTill\(driver\,\&quot;\/\/\*\[\@id\=\\\&quot;templateList\\\&quot;\]\&quot;\)\;\n        Select dropdown \= new Select\(driver\.findElement\(By\.xpath\(\&quot;\/\/\*\[\@id\=\\\&quot;templateList\\\&quot;\]\&quot;\)\)\)\;\n        dropdown\.selectByIndex\(1\)\;\n        System\.out\.println\(\&quot;Dropdown value Selected\&quot;\)\;\n\n    \}\n\n    \/\*public static int compareMapping\(\)\{\n\n\n    \}\*\/\n\n    public static int assertValues\(WebDriver driver\,String elementPath\, String textValueAt\, String expectedText\) \{\n        WebElement TxtBoxContent \= driver\.findElement\(By\.xpath\(elementPath\)\)\;\n         textValueAt\=TxtBoxContent\.getText\(\)\;\n        System\.out\.println\(\&quot;Printing \&quot;\+textValueAt\)\;\n    if\(textValueAt\=\=expectedText\)\{\n\n        return 1\;\n        \n    \}\n    \n\n\}\n</find>
+      <find>package GstActions\;\nimport com\.pere\.seleniumActions\.EnterTextField\;\nimport com\.pere\.seleniumActions\.InitiateChrome\;\nimport com\.pere\.seleniumActions\.WebDriverWaitCustom\;\nimport com\.pere\.fileUtil\.ReadProperties\;\nimport com\.perennial\.selenium\.ScreenshotHelper\;\nimport net\.bytebuddy\.asm\.Advice\;\nimport org\.openqa\.selenium\.By\;\nimport org\.openqa\.selenium\.JavascriptExecutor\;\nimport org\.openqa\.selenium\.WebDriver\;\nimport org\.openqa\.selenium\.WebElement\;\nimport org\.openqa\.selenium\.interactions\.Actions\;\nimport org\.openqa\.selenium\.support\.ui\.Select\;\n\nimport java\.util\.Properties\;\nimport java\.util\.concurrent\.TimeUnit\;\n\npublic class GstFunctions \{\n\n    public static void login\(WebDriver driver\, String userName\, String password\, String baseUrl\, String userIdElement\, String userPasswordElement\, String submitButtonPath\) \{\n        Properties pro\;\n        pro \= ReadProperties\.returnProperties\(\)\;\n        \/\/InitiateChrome ic \= new InitiateChrome\(\)\;\n\n        \/\/To get desired URL loaded\n        driver\.get\(baseUrl\)\;\n\n        \/\/maximise window\n        driver\.manage\(\)\.window\(\)\.maximize\(\)\;\n        driver\.manage\(\)\.timeouts\(\)\.implicitlyWait\(30\, TimeUnit\.SECONDS\)\;\n\n        \/\/To take screenshot\n        ScreenshotHelper\.captureScreenshot\(driver\, pro\.getProperty\(\&quot;imageSavePath\&quot;\)\)\;\n        \/\/wait until dom gives email_id\n        WebDriverWaitCustom\.waitTill\(driver\, userIdElement\)\;\n        \/\/set text to the email id field\n        EnterTextField\.enterTextInField\(driver\, userIdElement\, userName\)\;\n        \/\/set password in the password field\n        EnterTextField\.enterTextInField\(driver\, userPasswordElement\, password\)\;\n        \/\/Click on login button\n        EnterTextField\.clickButton\(driver\, submitButtonPath\)\;\n    \}\n\n    public static void gstR1\(WebDriver driver\) \{\n        \/\/ Select date controller and click on it\n        WebDriverWaitCustom\.waitTill\(driver\, \&quot;\/\/\*\[\@id\=\\\&quot;clientDashReturnPeriod\\\&quot;\]\&quot;\)\;\n        EnterTextField\.clickButton\(driver\, \&quot;\/\/\*\[\@id\=\\\&quot;clientDashReturnPeriod\\\&quot;\]\&quot;\)\;\n        \/\/ Select first month from array and select it\n        EnterTextField\.clickButton\(driver\, \&quot;\/\/td\/span\[\@class\=\'month\'\]\[1\]\&quot;\)\;\n        \/\/Click on the map file button\/tr\[1\]\/td\[6\]\/a\n        \/\/WebElement element \= driver\.findElement\(By\.cssSelector\(\&quot;\#example1 \.text\-center \.gstr1MappingUpld\&quot;\)\)\;\n        WebElement element \= driver\.findElement\(By\.xpath\(\&quot;\/\/tr\[1\]\/td\[6\]\/a\&quot;\)\)\;\n        element\.click\(\)\;\n        WebDriverWaitCustom\.waitTill\(driver\, \&quot;\/\/\*\[\@id\=\\\&quot;templateList\\\&quot;\]\&quot;\)\;\n        Select dropdown \= new Select\(driver\.findElement\(By\.xpath\(\&quot;\/\/\*\[\@id\=\\\&quot;templateList\\\&quot;\]\&quot;\)\)\)\;\n        dropdown\.selectByIndex\(1\)\;\n        System\.out\.println\(\&quot;Dropdown value Selected\&quot;\)\;\n       if\(assertValues\(driver\,\&quot;\(\/\/table\/tbody\/tr\[1\]\/td\[1\]\)\[1\]\&quot;\)\{\n           System\.out\.println\(\&quot;Value at column 1 ro1 is correct\&quot;\)\;\n       \}\n\n    \n\n    \/\*public static int compareMapping\(\)\{\n\n\n    \}\*\/\n\n    public static String assertValues\(WebDriver driver\, String elementPath\) \{\n        WebElement TxtBoxContent \= driver\.findElement\(By\.xpath\(elementPath\)\)\;\n        String textValueAt \= TxtBoxContent\.getText\(\)\;\n        System\.out\.println\(\&quot;Printing \&quot; \+ textValueAt\)\;\n            return \(textValueAt \=\= expectedText\)\;\n    \}\n\}\n\}   \n</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -138,14 +170,16 @@
         <option value="$PROJECT_DIR$/src/com/pere/testGst/CallScriptsForGst.java" />
         <option value="$PROJECT_DIR$/src/GstActions/EmailVerification.java" />
         <option value="$PROJECT_DIR$/src/com/pere/Browser/BrowserActions.java" />
-        <option value="$PROJECT_DIR$/gstdata.properties" />
-        <option value="$PROJECT_DIR$/src/com/pere/seleniumActions/WebDriverWaitCustom.java" />
-        <option value="$PROJECT_DIR$/src/com/pere/seleniumActions/EnterTextField.java" />
-        <option value="$PROJECT_DIR$/src/com/pere/browser/BrowserActions.java" />
         <option value="$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateBrowser.java" />
-        <option value="$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateChrome.java" />
+        <option value="$PROJECT_DIR$/gstdata.properties" />
+        <option value="$PROJECT_DIR$/src/com/pere/browser/BrowserActions.java" />
         <option value="$PROJECT_DIR$/src/GstActions/GstFunctions.java" />
         <option value="$PROJECT_DIR$/src/GstActions/LoginToApplication.java" />
+        <option value="$PROJECT_DIR$/src/com/pere/seleniumActions/WebDriverWaitCustom.java" />
+        <option value="$PROJECT_DIR$/src/com/pere/seleniumActions/EnterTextField.java" />
+        <option value="$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateDriver.java" />
+        <option value="$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateFireFox.java" />
+        <option value="$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateChrome.java" />
         <option value="$PROJECT_DIR$/src/GstScript.java" />
       </list>
     </option>
@@ -162,6 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -194,11 +229,6 @@
             <path>
               <item name="GstHeroAutomation" type="b2602c69:ProjectViewProjectNode" />
               <item name="GstHeroAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GstHeroAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GstHeroAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -219,10 +249,6 @@
               <item name="GstHeroAutomation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="GstActions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GstHeroAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -250,7 +276,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,6 +283,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -274,7 +300,7 @@
   <component name="RunManager">
     <configuration name="GstScript" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GstScript" />
-      <module name="GstHeroAutomation" />
+      <module name="Automation" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -348,55 +374,55 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32882884" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32831326" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29668674" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29668674" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24596465" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32882884" />
       <window_info id="Learn" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990964" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32882884" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2957958" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24596465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24596465" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29668674" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882884" />
       <window_info id="Learn" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990964" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32882884" />
@@ -407,36 +433,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Up to the mapping of GSTR1 step 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Up to the mapping of GSTR1 step 1" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/pere/browser/BrowserActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/SeleniumHelpers.jar!/com/perennial/selenium/ScreenshotHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateChrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/WebDriverWaitCustom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -509,7 +515,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateChrome.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
@@ -584,7 +590,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateChrome.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
@@ -656,7 +662,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateChrome.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
@@ -721,13 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/SeleniumHelpers.jar!/com/perennial/selenium/ScreenshotHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Hashtable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-762">
@@ -745,13 +744,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateChrome.java">
+    <entry file="file://$PROJECT_DIR$/Automation.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="195">
+          <caret line="13" column="18" selection-start-line="12" selection-start-column="10" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pere/browser/BrowserActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/SeleniumHelpers.jar!/com/perennial/selenium/ScreenshotHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="98" selection-start-line="20" selection-start-column="7" selection-end-line="21" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gstdata.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -762,58 +789,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GstHeroAutomation.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="18" selection-start-line="12" selection-start-column="10" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pere/browser/BrowserActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/EnterTextField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gstdata.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GstActions/LoginToApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="86" lean-forward="true" selection-start-line="62" selection-start-column="86" selection-end-line="62" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/WebDriverWaitCustom.java">
+    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateFireFox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GstScript.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="167">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -822,9 +808,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GstActions/GstFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="39" column="57" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+        <state relative-caret-position="-808">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/WebDriverWaitCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/EnterTextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/InitiateChrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GstScript.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>

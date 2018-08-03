@@ -1,5 +1,9 @@
 package com.pere.seleniumActions;
-
+/**
+ * Created by IntelliJ IDEA.
+ * User: Swapnil Gapchup
+ * Date: 3/8/18
+ */
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
