@@ -22,10 +22,21 @@ import java.util.concurrent.TimeUnit;
 
 public class GstFunctions {
 
+    public static void threadWait(){
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+    /**
+     *  Expected data for mapping GSTR1 step
+     */
+
+
     public static void login(WebDriver driver, String userName, String password, String baseUrl, String userIdElement, String userPasswordElement, String submitButtonPath) {
         Properties pro;
         pro = ReadProperties.returnProperties();
-        //InitiateChrome ic = new InitiateChrome();
 
         //To get desired URL loaded
         driver.get(baseUrl);
@@ -47,51 +58,68 @@ public class GstFunctions {
     }
 
     public static void gstR1(WebDriver driver) {
-        // Select date controller and click on it
-        WebDriverWaitCustom.waitTill(driver, "//*[@id=\"clientDashReturnPeriod\"]");
-        EnterTextField.clickButton(driver, "//*[@id=\"clientDashReturnPeriod\"]");
-        // Select first month from array and select it
-        EnterTextField.clickButton(driver, "//td/span[@class='month'][1]");
-        //Click on the map file button/tr[1]/td[6]/a
-        //WebElement element = driver.findElement(By.cssSelector("#example1 .text-center .gstr1MappingUpld"));
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        WebElement element = driver.findElement(By.xpath("//tr[1]/td[6]/a"));
-        element.click();
-        WebDriverWaitCustom.waitTill(driver, "//*[@id=\"templateList\"]");
-        Select dropdown = new Select(driver.findElement(By.xpath("//*[@id=\"templateList\"]")));
+        Properties pro;
+        pro = ReadProperties.returnProperties();
+        // Select date controller and click on itMonthSlection
+        WebDriverWaitCustom.waitTill(driver,pro.getProperty("monthSlection"));
+        //Select month dropdown
+        EnterTextField.clickButton(driver,pro.getProperty("monthSlection"));
+        // Select first month from array and set it
+        EnterTextField.clickButton(driver, pro.getProperty("monthdiv"));
+        threadWait();
+        //Click on the map file button
+        EnterTextField.clickButton(driver,pro.getProperty("mapExcelButton"));
+        //Select excel type
+        WebDriverWaitCustom.waitTill(driver, pro.getProperty("fileTypeSelectionDropdown"));
+        Select dropdown = new Select(driver.findElement(By.xpath(pro.getProperty("fileTypeSelectionDropdown"))));
         dropdown.selectByIndex(1);
         System.out.println("Dropdown value Selected");
-        EnterTextField.clickButton(driver,"//button[2]");
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        System.out.println(driver.findElement(By.xpath("(//table/tbody/tr[1]/td[1])[1]")));
+        //Click to process mapping
+        EnterTextField.clickButton(driver,pro.getProperty("processAndNext"));
+        //wait till next page lodes
+        threadWait();
+       // System.out.println(driver.findElement(By.xpath("(//table/tbody/tr[1]/td[1])[1]")));
         compareMapping(driver);
 
     }
 
-    public static int compareMapping(WebDriver driver) {
-        if(assertValues(driver,"(//table/tbody/tr[1]/td[1])[1]","Document / Voucher / Invoice Type*")&&
-           assertValues(driver,"(//table/tbody/tr[1]/td[2])[1]","Document / Voucher / Invoice Type: Regular, Exports, Exports LUT/Bond, Deemed Exports, SEZ Exports, SEZ LUT/Bond, Nil Rated, Non GST, Exempt")&&
-           assertValues(driver,"(//table/tbody/tr[2]/td[1])[1]","Supplier GSTIN / UID*")&&
-           assertValues(driver,"(//table/tbody/tr[2]/td[2])[1]","Supplier GSTIN / UIN")){
-            System.out.println("Value Mapping Correct");
-        }else{
-            System.out.println("Value mismatch");
-        }
-        return 1;
-    }
 
+   public static void compareMapping(WebDriver driver) {
+        Properties pro;
+       pro = ReadProperties.returnProperties();
+       // Read expected text for mapping
+       String row1cloumn1value=pro.getProperty("row1column1value");
+       String row1cloumn2value=pro.getProperty("row1column2value");
+       String row2cloumn1value=pro.getProperty("row2column1value");
+       String row2cloumn2value=pro.getProperty("row2column2value");
+        //Assert expected and actual text at given place
+       if(assertValues(driver,pro.getProperty("row1column1"),row1cloumn1value )&&
+               assertValues(driver,pro.getProperty("row1column2"),row1cloumn2value)&&
+               assertValues(driver,pro.getProperty("row2column1"),row2cloumn1value)&&
+               assertValues(driver,pro.getProperty("row2column2"),row2cloumn2value)){
+           System.out.println("Value Mapping Correct");
+       }else{
+           System.out.println("Value Mapping Mismatch");
+       }
+       EnterTextField.clickButton(driver,pro.getProperty("processButtonPath"));
+
+       threadWait();
+       if(assertValues(driver, pro.getProperty("mappingStatusPath"), pro.getProperty("expectedStatus"))) {
+           System.out.println("Mapping Status is Completed");
+       }else{
+           System.out.println("Mapping Status is Incompleted");
+       }
+
+   }
     public static boolean assertValues(WebDriver driver, String elementPath, String expectedText) {
         WebElement TxtBoxContent = driver.findElement(By.xpath(elementPath));
         String textValueAt = TxtBoxContent.getText();
         System.out.println("value at '" + elementPath + "' is " +"'"+textValueAt+"'");
+        if(textValueAt.contains(expectedText)){
+            System.out.println("Success");
+        }else{
+            System.out.println("mismatch at" +elementPath+" Actual value is "+textValueAt+" Expected Value is "+expectedText);
+        }
             return (textValueAt.contains(expectedText));
 
     }
