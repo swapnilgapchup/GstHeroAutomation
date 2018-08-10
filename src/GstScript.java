@@ -12,6 +12,9 @@ import com.pere.fileUtil.ReadProperties;
 import com.pere.seleniumActions.WebDriverWaitCustom;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import javax.script.ScriptException;
+import java.awt.*;
 import java.util.Properties;
 
 import static GstActions.GstFunctions.gstR1;
@@ -38,7 +41,7 @@ public class GstScript {
             la.login(driver);
             //Thread.sleep(3000);
             //File GSTR1
-            gstR1(driver);
+            gstR1(driver);//Script Exception handeled for this line
             //open new tab to start process of Email verification
             //openNewTab(driver);
             //System.out.println(driver.getTitle());
@@ -51,6 +54,8 @@ public class GstScript {
             System.out.println(r);
         } catch (org.openqa.selenium.WebDriverException e) {
             System.out.println(e);
+        } catch (AWTException e) {
+            e.printStackTrace();
         }
     }
 }
