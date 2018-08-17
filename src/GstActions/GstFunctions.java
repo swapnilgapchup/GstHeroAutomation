@@ -107,7 +107,7 @@ public class GstFunctions {
         threadWait();
         System.out.println(pro.getProperty("filePath")+"This is it");
        // WebDriverWaitCustom.waitTill(driver,"//*[@id=\"invoiceExcel\"]");
-        WebElement element = driver.findElement(By.cssSelector("#invoiceExcel"));
+        WebElement element = driver.findElement(By.xpath("(//td/div/a/span)[1]"));
                 element.sendKeys(pro.getProperty("filePath"));
 
         //tagOfUploadFile = //*[@id="invoiceExcel"]

@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77054e03-e932-441f-9ecd-6dd4052ac357" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/zp.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gstdata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gstdata.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Automation/GstActions/GstFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Automation/GstActions/GstFunctions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Automation/GstScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Automation/GstScript.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Automation/com/pere/seleniumActions/WebDriverWaitCustom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Automation/com/pere/seleniumActions/WebDriverWaitCustom.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GstActions/GstFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GstActions/GstFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GstScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GstScript.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pere/seleniumActions/WebDriverWaitCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pere/seleniumActions/WebDriverWaitCustom.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GstFunctions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GstFunctions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GstActions/GstFunctions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+            <state relative-caret-position="338">
+              <caret line="118" column="52" lean-forward="true" selection-start-line="118" selection-start-column="52" selection-end-line="118" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gstdata.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gstdata.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gstdata.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="36" selection-end-column="2" />
+            <state relative-caret-position="288">
+              <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -413,7 +407,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -424,11 +417,11 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29668674" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29668674" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24596465" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24596465" />
       <window_info id="Learn" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -830,29 +823,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gstdata.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="35" column="48" lean-forward="true" selection-start-line="35" selection-start-column="48" selection-end-line="36" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GstScript.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
           <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/WebDriverWaitCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -870,11 +846,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GstActions/GstFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="110" column="33" selection-start-line="110" selection-start-column="33" selection-end-line="110" selection-end-column="33" />
+        <state relative-caret-position="338">
+          <caret line="118" column="52" lean-forward="true" selection-start-line="118" selection-start-column="52" selection-end-line="118" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/pere/seleniumActions/WebDriverWaitCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gstdata.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
