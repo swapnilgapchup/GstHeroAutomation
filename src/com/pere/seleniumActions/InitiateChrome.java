@@ -20,7 +20,7 @@ public class InitiateChrome implements InitiateDriver{
     @Override
         public WebDriver setupDriver(String path) {
             Properties properties = new Properties();
-            System.setProperty("webdriver.chrome.driver", path);
+            System.setProperty("webdriver.chrome.driver",path);
             WebDriver driver1 = new ChromeDriver();
             driver1.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
             return driver1;

@@ -34,6 +34,7 @@ public class GstScript {
             InitiateDriver ic = new InitiateChrome();
             WebDriver driver;
             //set local chrom driver path
+            System.out.println(pro.getProperty("path"));
             driver = ic.setupDriver(pro.getProperty("path"));
             // driver.manage().window().maximize();
 
@@ -49,7 +50,7 @@ public class GstScript {
 
             Thread.sleep(3000);
             //Close and quit WebDriver
-            ic.closeDriver(driver);
+            //ic.closeDriver(driver);
         } catch (NotFoundException r) {
             System.out.println(r);
         } catch (org.openqa.selenium.WebDriverException e) {

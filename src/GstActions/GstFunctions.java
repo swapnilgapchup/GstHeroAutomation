@@ -5,27 +5,15 @@ package GstActions;
  * Date: 3/8/18
  */
 import com.pere.seleniumActions.EnterTextField;
-import com.pere.seleniumActions.InitiateChrome;
 import com.pere.seleniumActions.WebDriverWaitCustom;
 import com.pere.fileUtil.ReadProperties;
 import com.perennial.selenium.ScreenshotHelper;
-import net.bytebuddy.asm.Advice;
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import javax.script.ScriptEngine;
-import javax.script.ScriptEngineManager;
-import javax.script.ScriptException;
 import java.awt.*;
-import java.awt.datatransfer.StringSelection;
-import java.awt.event.KeyEvent;
-import java.util.List;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
-
 import static com.pere.seleniumActions.WebDriverWaitCustom.waitTillPageIsReady;
 
 public class GstFunctions {
@@ -102,65 +90,31 @@ public class GstFunctions {
                  //click ok on the modal of the GSTR1 for process confirmation
         ((JavascriptExecutor)driver).executeScript("var modalOpen = document.getElementsByClassName('btn-ok-black');modalOpen[0].click();");
 
-
+        // wait till the page is gettign loaded
         waitTillPageIsReady(driver);
         threadWait();
-        System.out.println(pro.getProperty("filePath")+"This is it");
-       // WebDriverWaitCustom.waitTill(driver,"//*[@id=\"invoiceExcel\"]");
-        WebElement element = driver.findElement(By.xpath("(//td/div/a/span)[1]"));
-                element.sendKeys(pro.getProperty("filePath"));
-
-        //tagOfUploadFile = //*[@id="invoiceExcel"]
-
-        /*WebElement element = driver.findElement(By.xpath("(//td/div/a/span)[1]"));
-        Actions actions = new Actions(driver);
-        actions.moveToElement(element);
-        actions.sendKeys(pro.getProperty("filePath"));
-        System.out.println("tagOfUploadFile found");
-        actions.build().perform();*//*
-        StringSelection s = new StringSelection("filePath");
-        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(s, null);*/
-        /*try {
-            Robot robot = new Robot();
-            robot.keyPress(KeyEvent.VK_SLASH);
-            robot.keyPress(KeyEvent.getExtendedKeyCodeForChar('z'));
-            robot.keyPress(KeyEvent.getExtendedKeyCodeForChar('p'));
-            robot.keyPress(KeyEvent.getExtendedKeyCodeForChar('.'));
-            robot.keyPress(KeyEvent.getExtendedKeyCodeForChar('x'));
-            robot.keyPress(KeyEvent.getExtendedKeyCodeForChar('l'));
-            robot.keyPress(KeyEvent.getExtendedKeyCodeForChar('s'));
-            robot.keyPress(KeyEvent.getExtendedKeyCodeForChar('x'));
-            robot.keyPress(java.awt.event.KeyEvent.VK_ENTER);
-        }catch(AWTException e){
-            System.out.println(e);
-        }*/
+        //System.out.println(pro.getProperty("filePath")+"This is it");
+        // get input element to send file
+        WebElement element[]= driver.findElements(new By.ByTagName("input")).toArray(new WebElement[0]);
+        element[3].sendKeys(pro.getProperty("filePath"));
         waitTillPageIsReady(driver);
+        // Click on next
         driver.findElement(By.xpath("//*[@id=\"processAndNextBtn\"]")).click();
         waitTillPageIsReady(driver);
-        /*element.sendKeys(pro.getProperty("filePath"));
-
-        System.out.println("tagOfUploadFile found");
-        threadWait();
-
-        try{
-            WebDriverWaitCustom.waitTill(driver,pro.getProperty("processOffline"));
-            if(EnterTextField.getTextValue(driver,pro.getProperty("processOffline"))=="Process Offline"){
-                System.out.println("Step 2 Completed Draft generated on step 3");
-            }
-        }catch(ElementNotVisibleException e){
-            System.out.println(e);*/
+        //assert value for the Expected GSTR1 output
   if(assertValues(driver,"//*[@id=\"b2b4AtaxValue\"]","9,69,049.11")){
        System.out.println("Business to Business tax value is compared for given text file which is correct");
         }
-        // to check status of GSTR1 uploaded
-      /* if(assertValues(driver,pro.getProperty("gstr1StatusElement"),pro.getProperty("gstr1DraftGeneratedStatus"))){
-        System.out.println("Draft Generated is the status ");
-       }else{
-           System.out.println("Draft Generation fail");
-       }
-       WebDriverWaitCustom.waitTill(driver,pro.getProperty("uploadButtonPath1"));
-       EnterTextField.clickButton(driver,pro.getProperty("uploadButtonPath1"));*/
-        //processButton=//*[id="invoiceExcel"]
+
+
+        /*driver.findElement(By.cssSelector(".gstr1TxnDiscard")).click();
+        driver.findElement(By.xpath("(//img)[1]")).click();
+        driver.findElement(By.cssSelector(".workonthis-btn")).click();
+
+        ((JavascriptExecutor)driver).executeScript("var modalOpen = document.getElementsByClassName('btn-black-submition');modalOpen[0].click();");
+        waitTillPageIsReady(driver);
+        ((JavascriptExecutor)driver).executeScript("var modalOpen = document.getElementsByClassName('btn-black-submition');modalOpen[0].click();");*/
+
     }
 
 
